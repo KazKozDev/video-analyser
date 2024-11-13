@@ -9,11 +9,11 @@
 [![YouTube API](https://img.shields.io/badge/YouTube-API-red.svg?style=flat&logo=youtube&logoColor=white)](https://developers.google.com/youtube/v3)
 [![Visitors](https://visitor-badge.laobi.icu/badge?page_id=KazKozDev.video-analyser)](https://github.com/KazKozDev/video-analyser)
 
-![YouTube Video Analyzer Pro Demo](https://github.com/kazkozdev/video-analyser/blob/main/demo.gif)
-
 ## 🌟 Overview
 
 YouTube Video Analyzer Pro is a cutting-edge tool that brings professional-grade video analysis capabilities to content creators and viewers alike. Leveraging advanced AI technologies, it provides deep insights into video content, audience engagement, and market positioning.
+
+![YouTube Video Analyzer Pro Demo](https://github.com/kazkozdev/video-analyser/blob/main/demo.gif)
 
 ## ✨ Key Features
 
