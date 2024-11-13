@@ -13,8 +13,6 @@
 
 YouTube Video Analyzer Pro is a cutting-edge tool that brings professional-grade video analysis capabilities to content creators and viewers alike. Leveraging advanced AI technologies, it provides deep insights into video content, audience engagement, and market positioning.
 
-![YouTube Video Analyzer Pro Demo](https://github.com/kazkozdev/video-analyser/blob/main/demo.gif)
-
 ## ✨ Key Features
 
 ### 🧠 AI-Powered Content Analysis
@@ -29,6 +27,8 @@ YouTube Video Analyzer Pro is a cutting-edge tool that brings professional-grade
   - Backup: Whisper AI for videos without existing transcripts
   - Smart timestamps with topic segmentation
   - Custom processing for cleaner output
+
+![YouTube Video Analyzer Pro Demo](https://github.com/kazkozdev/video-analyser/blob/main/demo.gif)
 
 ### 🌍 Professional Translation Hub
 - **Enterprise-Grade Translation Support**
