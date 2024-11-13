@@ -1,4 +1,4 @@
-# YouTube Video Analyzer Pro 🚀
+# YouTube Video Analyzer Pro
 
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.108.0-009688.svg?style=flat&logo=FastAPI&logoColor=white)](https://fastapi.tiangolo.com)
 [![Python](https://img.shields.io/badge/Python-3.9+-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
@@ -79,7 +79,7 @@ graph TD
 
 ### AI Processing Pipeline
 - **Speech Recognition**: Whisper AI
-- **Content Analysis**: Llama 3.2
+- **Content Analysis**: Llama 3.2 (Ollama llama3.2-vision:11b model)
 - **Translation Engine**: Custom AI Pipeline
 - **Comment Analysis**: Advanced NLP Models
 
@@ -99,21 +99,12 @@ graph TD
 
 ### ⚡ Processing Times
 
-**🔍 Basic Analysis**
-- Short Videos (<10min): ~30 seconds
-- Long Videos (>10min): 1-2 minutes
-
-**📝 Transcription**
-- Short Videos (<10min): 1-2 minutes
-- Long Videos (>10min): 3-5 minutes
-
-**🌍 Translation**
-- Short Videos (<10min): 2-3 minutes
-- Long Videos (>10min): 5-10 minutes
-
-**💬 Comment Analysis**
-- Short Videos (<10min): 1-2 minutes
-- Long Videos (>10min): 2-3 minutes
+| Operation | Short Videos (<10min) | Long Videos (>10min) |
+|-----------|---------------------|-------------------|
+| 🔍 Basic Analysis | ~30 seconds | 1-2 minutes |
+| 📝 Transcription | 1-2 minutes | 3-5 minutes |
+| 🌍 Translation | 2-3 minutes | 5-10 minutes |
+| 💬 Comment Analysis | 1-2 minutes | 2-3 minutes |
 
 Note: Processing times may vary depending on server load and video complexity. All operations run locally for maximum privacy and security.
 
@@ -124,6 +115,31 @@ Note: Processing times may vary depending on server load and video complexity. A
 - 8GB RAM minimum
 - GPU recommended for faster processing
 - YouTube API Key
+- Ollama installed (for Llama 3.2 model)
+
+### Installing Ollama and Llama Model
+1. **Install Ollama**
+   ```bash
+   # For Linux/WSL
+   curl -fsSL https://ollama.com/install.sh | sh
+   
+   # For macOS
+   brew install ollama
+   
+   # For Windows
+   # Download from https://ollama.com/download
+   ```
+
+2. **Download Llama Model**
+   ```bash
+   # Start Ollama service
+   ollama serve
+
+   # In a new terminal, pull the model
+   ollama pull llama3.2-vision:11b
+   ```
+
+   Note: The model is approximately 11GB in size, so ensure you have sufficient disk space and a stable internet connection.
 
 ### Quick Start
 1. **Clone & Setup**
