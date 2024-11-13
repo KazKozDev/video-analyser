@@ -28,6 +28,8 @@ YouTube Video Analyzer Pro is a cutting-edge tool that brings professional-grade
   - Smart timestamps with topic segmentation
   - Custom processing for cleaner output
 
+## 🎬 Demo Preview
+
 ![YouTube Video Analyzer Pro Demo](https://github.com/kazkozdev/video-analyser/blob/main/demo.gif)
 
 ### 🌍 Professional Translation Hub
